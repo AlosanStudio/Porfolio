@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+		 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+		<title>Alosan</title>
+		<!-- faviconos -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+		<link rel="manifest" href="icons/site.webmanifest">
+		<link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+		<!-- google fonts -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:ital,wght@0,100;0,400;0,700;1,700&display=swap" rel="stylesheet">
+		<!-- video inicio -->
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	</head>
+	<body>
+		<section class="banner" id="sec"></section>
+		<header class="v-header container">
+			<div class="fullscreen-video-wrap">
+				<video src="textura.mp4" autoplay="true" loop="true" muted></video>
+			</div>
+			<div class="header-overlay"></div>
+			<div class="header-content">
+				<h1>Hola!<br>Soy <span>Pablo Alonso</span></h1>
+				<h2>Diseñador gráfico y web</h2>
+				<p>Bienvenido a mi portafolio digital, aquí podreis ver algunos de mis trabajos. Espero que os guste. &#129327 </p>
+				<a href="#sec-2">
+					<div class="scroll-down"></div>
+				</a>
+			</div>
+			<a href="index.html">
+				<div class="logo" href="index.html"><img width="100px" src="img/logo-alosan.svg" alt="Logo de Alosan" title="Alosan"></div>
+			</a>
+		</header>
+		<main>
+			<div class="cursor"></div>
+			<script>
+				const cursor = document.querySelector('.cursor');
+				document.addEventListener('mousemove',(e)=>{
+					cursor.style.left = e.pageX + 'px';
+					cursor.style.top = e.pageY + 'px';
+				})
+			</script>
+			<section class="section section-a">
+				<div class="container">
+					<h1>Quién soy</h1>
+					<p>Lo que comenzó hace unos años como una aventura a través de briefs y diseños, se ha convertido en pasión por el desarrollo de imagen gráfica y el diseño web.<br> Mi nombre completo es Pablo Alonso Santos, nací en Miranda de Ebro y me trasladé hasta Zaragoza para estudiar diseño gráfico en la ESDA. No dudes en ponerte en contacto conmigo.</p>
+					<div class="middle"><a class="imagen"><img src="img/yo.jpg"></a>
+					</div>
+					<div class="middle">
+				      <a class="btn" href="https://www.instagram.com/alosan.design/?hl=es">
+				        <i class="fab fa-instagram"></i>
+				      </a>
+				      <a class="btn" href="mailto:palonso@esda.es">
+				        <i class="fab fa-google"></i>
+				      </a>
+				      <a class="btn" href="https://www.behance.net/pabloalonso5/moodboards">
+				        <i class="fab fa-behance"></i>
+				      </a>
+			    </div>
+				</div>
+			</section>
+			<section class="section section-b">
+				<div class="container">
+					<h1>Mis trabajos</h1>
+					<p>En todos mis proyectos trato de buscar una solución diferente con la intención de llegar a un resultado diferencialdor.</p>
+				</div>
+			</section>
+			<section>
+					<a href="paginas/carteles/carteles.html">
+						<article>
+							<h2>Carteles</h2>
+							<p>- Portada para la revista babel. <br> - Día internacional del Jazz. <br> - Cartel promocional para Care Nouveau. <br> - Cartel para el día de San Jorge.	</p>
+							<img src="img/carteles.jpg" alt="cartel jazz" title="cartel jazz">
+						</article>
+					</a>
+				<a href="paginas/elhoyo/elhoyo.html">
+					<article>
+						<h2>El hoyo</h2>
+						<p>Títulos de créditos de la famosa película "El Hoyo". <br> Con un estilo extrañamente amenazador y que transmite de forman nítida la frialdad, la tensión y el espíritu de la mítica película española dirigida po Galder Gaztelu-Urrutia.</p>
+						<img src="img/el-hoyo.jpg" alt="el hoyo" title="el hoyo">
+					</article>
+				</a>
+				<a href="paginas/kelloggs/kelloggs.html">
+					<article>
+						<h2>Packaging kellogg´s</h2>
+						<p>Diseño de la nueva línea de cereales ahora más saludables. <br>Manteniendo la esencia y el espíritu de la marca con un diseño acualizado, estos tres nuevos sabores te harán sacar tu lado más salvaje estés donde estés y en cualquier momento. </p>
+						<img src="img/kelloggs.jpg" alt="packaging kellog´s" title="packaging kellog´s">
+					</article>
+				</a>
+				<a href="paginas/mirandaviva/mirandaviva.html">
+					<article>
+						<h2>Mirandaviva</h2>
+						<p>Con este logo representamos la unión de todos los comericos mirandeses frente a los desastres provocados por el covid, un corazón que sigue latiendo aunque no nos viésemos. Es un logo de fuerza y esperanza, porque todos juntos volveríamos más fuertes.</p>
+						<img src="img/mirandaviva.jpg" alt="miranda viva" title="miranda viva">
+					</article>
+				</a>
+				<a href="paginas/esdamag/esdamag.html">
+					<article>
+						<h2>Esda mag</h2>
+						<p>Revista anual de la ESDA en la que se exponen los trabajos de fin de grado junto a la oferta educativa y entrevistas y reportajes a algunos de los miembros de la escuela.</p>
+						<img src="img/esdamag.jpg" alt="ESDA Mag" title="ESDA Mag">
+					</article>
+				</a>
+				<a href="paginas/layout/layout.html">
+					<article>
+						<h2>Layout</h2>
+						<p>Revista de dicada al diseño, con reportajes y entrevistas a los representantes más característicos, exposiciones y análisis de las úlitimas tendencias y mucho más.</p>
+						<img src="img/layout.jpg" alt="Layout" title="Layout">
+					</article>
+				</a>
+				<a href="paginas/fotografico/fotografico.html">
+					<article>
+						<h2>Portfoleo fotográfico</h2>
+						<p>La profesión de la fotografía ha estado en mi familia prácticamente desde que nací. Esta, ofrece una variedad infinita de opiniones, de interpretaciones y de ejecuciones, pero siempre el componente más importante de una cámara está detrás de ella.</p>
+						<img src="img/diego.jpg" alt="Portfoleo Fotográfico" title="Portfóleo Fotográfico">
+					</article>
+				</a>
+				<a href="paginas/cubiertas/cubiertas.html">
+					<article>
+						<h2>Cubiertas fotográficas</h2>
+						<p>Colección de cubiertas retóricas. <br> - Un dios salvaje<br> - Música de mierda. <br> - La geometría del trigo.  </p>
+						<img src="img/portadas.jpg" alt="captura de pantalla" title="listado de carpetas del curso">
+					</article>
+				</a>
+			</section>
+		</main>
+		<footer>
+			<section class="section section-c">
+				<div class="container">
+					<h1>Muchas gracias!</h1>
+					<p>Espero que te haya gustado, si ha sido así, no dudes en contactar conmigo.</p>
+					<div class="middle">
+				      <a class="btn" href="https://www.instagram.com/alosan.design/?hl=es">
+				        <i class="fab fa-instagram"></i>
+				      </a>
+				      <a class="btn" href="mailto:palonso@esda.es">
+				        <i class="fab fa-google"></i>
+				      </a>
+				      <a class="btn" href="https://www.behance.net/pabloalonso5/moodboards">
+				        <i class="fab fa-behance"></i>
+				      </a>  
+			    </div>
+				</div>
+			</section>
+		</footer>
+	</body>
+</html>
